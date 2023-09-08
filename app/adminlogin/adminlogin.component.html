@@ -1,0 +1,23 @@
+<form action=""  method="post">
+
+
+    <label for="email">Email</label>
+
+    <input id="email" type="text" name="email" #txt1 placeholder="email"><br>
+
+ 
+    <label for="password">Password</label>
+
+    <input id="password" type="password" name="password" #txt2  placeholder="password"><br>
+
+ 
+    <input type="submit" value="Login" (click)="onLogin(txt1.value,txt2.value)"><br>
+
+   
+    <label for="newuser">New User?</label>
+
+    <input type="button" value="Register" (click)="goToReg()">
+
+ 
+    
+</form>
